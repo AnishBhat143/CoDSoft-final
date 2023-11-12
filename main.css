@@ -7,26 +7,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-@media only screen and (max-width: 600px) {
- 
-}
-
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
- 
-}
-
-@media only screen and (min-width: 1025px) {
- 
-}
-@media only screen and (max-width: 600px) {
-  
-  body {
-      font-size: 14px;
-  }
-  
-
-  
-}
 
 :root {
   --primary: #ff0000;
@@ -850,4 +830,119 @@ header {
   max-height: 255px;
   margin-right: -50px;
 
+}
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url(https://db.onlinewebfonts.com/c/3066b11123e63381b8e2aa554b18bf32?family=Bauhaus+93+V1);
+@import url(https://db.onlinewebfonts.com/c/9716fe7a921d8f22084d4695304328b5?family=GELLATO);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #ff0000;
+}
+
+body {
+  position: relative;
+  background: #000000;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  z-index: 20;
+}
+
+.logo img {
+  max-width: 60px;
+  filter: invert(1);
+}
+
+.menu {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav li {
+  margin-bottom: 10px; /* Adjust margin for smaller screens */
+}
+
+.nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 10px;
+  margin-right: 10px; /* Adjust margin for smaller screens */
+}
+
+.search {
+  position: relative;
+  width: 100%;
+  max-width: 300px; /* Set a max-width for the search bar */
+  height: 40px;
+  transition: 0.5s;
+}
+
+.search input {
+  width: 100%;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  display: none;
+}
+
+/* Media query for screens with a width of 600 pixels or less */
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .nav li a {
+    font-size: 0.9em; /* Adjust font size for smaller screens */
+  }
+
+  .search {
+    max-width: none;
+  }
+
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    display: block;
+  }
 }
