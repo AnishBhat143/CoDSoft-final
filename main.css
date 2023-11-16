@@ -831,3 +831,198 @@ header {
   margin-right: -50px;
 
 }
+
+
+.swiper .swiper-wrapper .swiper-slide .bannerrrrr .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.swiper .swiper-wrapper .swiper-slide .bannerrrrr .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.swiper .swiper-wrapper .swiper-slide .bannerrrrr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px 100px 0;
+  overflow: hidden;
+  background: transparent;
+  transition: 0.5s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.swiper .swiper-wrapper .swiper-slide .bannerrrrr img{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 400px;
+  z-index: 1;
+  top: 220px;
+  
+
+}
+
+
+.swiper .swiper-wrapper .swiper-slide .backscene {
+  position: absolute;
+  content: '';
+  top: 33%;
+  left: 48%;
+  transform: translateX(-50%);
+  background: transparent;
+  box-shadow: inset 0 0 25px;
+  backdrop-filter: blur(20px);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+
+}
+
+.swiper .swiper-wrapper .swiper-slide .bannerrrrr .left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.bannerrrrr .left .features{
+  max-width: 400px;
+  margin-bottom: 100px;
+}
+.bannerrrrr .left .features .rating{
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.bannerrrrr .left .features .rating .score{
+  padding: 15px;
+  font-size: 2em;
+  font-weight: 400;
+  color: var(--primary);
+  background: #ffffff;
+}
+
+.bannerrrrr .left .features .content{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.bannerrrrr .left .features .pricing{
+  color: #ffffff;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+
+.bannerrrrr .left .features .pricing ion-icon {
+  padding: 15px; 
+  font-size: 3em;
+  font-weight: 400;
+  color: #ffffff;
+  background: rgba(255, 0, 0, 0.6);
+  transition: 0.3s;
+}
+
+.bannerrrrr .left .features .pricing ion-icon:hover{
+  background: rgba(255, 0, 0, 0.9);
+}
+
+
+.bannerrrrr .left .features .content h4 {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.bannerrrrr .left .features .content span{
+  font-size: 0.7em;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.bannerrrrr .left .features .content .subtitle{
+  color: burlywood;
+}
+
+.name h1{
+  color: #ffffff;
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  line-height: 0.9;
+  z-index: 10;
+  text-transform: uppercase;
+  font-family: 'GELLATO';
+}
+
+.swiper .swiper-wrapper .swiper-slide .bannerrrrr .right{
+  position: relative;
+  height: 100vh;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  z-index: 100;
+}
+
+.bannerrrrr .right .description{
+  padding: 30px 40px 0 0;
+  color: #ffffff;
+  margin-top: 60px;
+
+}
+
+.bannerrrrr .right .description li{
+  list-style: none;
+}
+
+.bannerrrrr .right .description h4{
+  display: inline-block;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  align-items: center;
+  display: flex;
+
+}
+
+.bannerrrrr .right .description h4 ion-icon{
+  margin-right: 10px;
+}
+
+.bannerrrrr .right .description p{
+  margin: 5px 0 25px 30px;
+  font-weight: 200;
+}
+
+.bannerrrrr .right h2{
+  color: #ffffff;
+  font-size: 2.5em;
+  line-height: 1em;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.bannerrrrr .right iframe{
+  max-width: 450px;
+  max-height: 235px;
+  margin-right: -50px;
+
+}
